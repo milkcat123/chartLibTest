@@ -1,0 +1,41 @@
+{
+  "name": "chart_test",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build"
+  },
+  "dependencies": {
+    "@juggle/resize-observer": "^3.4.0",
+    "@vue/composition-api": "^1.7.1",
+    "apexcharts": "^3.36.3",
+    "babel-core": "^5.8.38",
+    "babel-polyfill": "^6.26.0",
+    "chart.js": "^2.9.4",
+    "core-js": "^3.8.3",
+    "echarts": "^5.4.0",
+    "vue": "^2.6.14",
+    "vue-apexcharts": "^1.6.2",
+    "vue-chartjs": "^3.5.1",
+    "vue-chartkick": "^0.6.1",
+    "vue-google-charts": "^1.1.0",
+    "vue-router": "^3.5.1",
+    "vuex": "^3.6.2"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "~5.0.0",
+    "@vue/cli-plugin-router": "~5.0.0",
+    "@vue/cli-plugin-vuex": "~5.0.0",
+    "@vue/cli-service": "~5.0.0",
+    "sass": "^1.32.7",
+    "sass-loader": "^12.0.0",
+    "vue-template-compiler": "^2.6.14"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead",
+    "Chrome > 48"
+  ]
+}
